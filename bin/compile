@@ -20,4 +20,4 @@ cd ..
 rm config/database.yml
 
 # compile assets
-GEM_PATH=vendor/bundle/ruby/1.9.1 PATH=bin:$PATH bundle exec iridium compile
+PATH=bin:$PATH bundle exec iridium compile
